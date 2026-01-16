@@ -58,7 +58,7 @@ nav a:hover{
     display:flex;
     flex-direction:row;
     top: calc(80px + 45px);
-    height:calc(100dvh - 80px - 45px - 40px);
+    height:calc(100dvh - 80px - 45px - 45px);
     gap:40px;
     padding:40px;
     z-index:100;
@@ -66,7 +66,7 @@ nav a:hover{
 footer{
     display:flex;
     background: #884d1d;
-    height:40px;
+    height:45px;
     width:100%;
     align-items:center;
     justify-content:center;
