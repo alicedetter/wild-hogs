@@ -11,6 +11,7 @@ body{
     height:100dvh;
     width:100dvw;
     font-family: "Cabin Sketch", sans-serif;
+    overflow: hidden;
 }
 .container{
     position: absolute;
@@ -64,6 +65,7 @@ nav a:hover{
     padding:40px;
     z-index:100;
     align-items: center;
+    overflow-x: scroll;
 }
 footer{
     display:flex;
