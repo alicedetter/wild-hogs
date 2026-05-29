@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  const element = document.querySelector(".scroll");
+  const element = document.getElementById("container");
 
-  element.addEventListener('scroll', (event) => {
+  element.addEventListener('wheel', (event) => {
     event.preventDefault();
 
     element.scrollBy({
-      left: event.deltaY < 0 ? -30 : 30,
+      left: event.deltaY<0 ? -100 : 100,
       behavior: 'smooth'
       
     });
-  });
+  }, { passive: false }); 
 });

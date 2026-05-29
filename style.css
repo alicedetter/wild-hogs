@@ -13,7 +13,7 @@ body{
     font-family: "Cabin Sketch", sans-serif;
     overflow: hidden;
 }
-.container{
+.container2{
     position: absolute;
     display:flex;
     flex-direction: column;
@@ -55,17 +55,21 @@ nav a{
 nav a:hover{
     color:rgb(64, 64, 64);
 }
-.scroll{
+#container{
     position:absolute;
     display:flex;
     flex-direction:row;
     top: calc(80px + 45px);
     height:calc(100dvh - 80px - 45px - 45px);
     gap:40px;
+    width:3000px;
     padding:40px;
     z-index:100;
     align-items: center;
-    overflow-x: scroll;
+    left: 0;
+    right: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 footer{
     display:flex;
@@ -111,23 +115,17 @@ footer{
     padding:25px;
     text-align:center;
 }
-.merch1{
+.merch{
     width:200px;
     height:240px;
     background: url(temporarytest.jpg);
     background-size: 200px 240px;
     border-radius:10px 10px 0px 0px;
 }
-.merch2{
-    width:200px;
-    height:240px;
-    background: url(temporarytest.jpg);
-    background-size: 200px 240px;
-    border-radius:10px;
-}
-.price1{
+.price{
     background-color: rgb(255, 255, 255);
     height:3rem;
     font-size:10px;
     padding:5px;
+    border-radius:0px 0px 10px 10px;
 }
